@@ -1,0 +1,42 @@
+/* ____RESET RULES____________ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ____DEBUG RULES________- */
+
+.bg-greenyellow{
+    background-color:greenyellow ;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-lightsalmon{
+    background-color:lightsalmon ;
+}
+.bg-lightseagreen{
+    background-color:lightseagreen ;
+}
+.bg-lightskyblue{
+    background-color: lightskyblue;
+}
+.bg-grey{
+    background-color:grey ;
+}
+.bg-yellow{
+    background-color:yellow ;
+}
+.bg-pink{
+    background-color:pink ;
+}
+.bg-magenta{
+    background-color:magenta ;
+}
+.bg-orange{
+    background-color: orange;
+}
+
