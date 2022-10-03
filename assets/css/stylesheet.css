@@ -101,7 +101,7 @@ section{
     border-radius: 31px;
     border: none;
     margin-top: 20px;
-    border: dashed blue;
+    /* border: dashed blue; */
 }
 
 .card .option{
@@ -246,7 +246,7 @@ section{
     border-radius: 89px;
     border: none;
     margin-top: 20px;
-    border: dashed blue;
+    /* border: dashed blue; */
 
 }
 
