@@ -39,4 +39,128 @@
 .bg-orange{
     background-color: orange;
 }
+/* ____button_________ */
 
+.btn{
+    background-color: white;
+    padding: 11px 16px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* ___containers______________ */
+.container-90{
+    width: 90%;
+    margin: auto;
+}
+
+/* GENERAL TAG */
+header{
+    background-color: rgba(0, 132, 253, 1);
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 17px;
+    align-items: center
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ___MEDIA___Q___MOBILE FIRST_________ */
+
+@media screen and (min-width: 425px){
+    .menu-extend{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .menu-extend{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .menu i{
+        display: none;
+    }
+    .menu-extend{
+        display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    }
+    .menu-extend ul{
+        display: flex;
+
+    }
+    .menu-extend li{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+
+    }
+
+
+
+}
