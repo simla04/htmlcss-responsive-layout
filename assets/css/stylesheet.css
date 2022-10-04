@@ -60,7 +60,6 @@ font-family: 'PT Sans', sans-serif;
 }
 .btn-white{
     background-color: white;
-
 }
 
 .btn-blue{
@@ -68,8 +67,15 @@ font-family: 'PT Sans', sans-serif;
     color: white;
     margin-right: 3px;
 }
+.btn-violet{
+    background-color: rgba(151, 146, 228, 1);
+    color: white;
+}
 .btn-80{
     width: 80%;
+}
+.btn-50{
+    width: 50%;
 }
 /* ___containers______________ */
 .container-90{
@@ -292,7 +298,43 @@ section{
     line-height: 37px;
 }
 
+/* _____benefits______________ */
+.benefits{
+    background-color: rgba(151, 146, 228, 1);
+}
+.benefits .title-benefits{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
 
+.card-benefit{
+    /* width: 100%; */
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+}
+
+.benefits .number, .benefits .type-benefit{
+    color: rgba(151, 146, 228, 1);
+}
+
+.benefits .number{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0.3rem 0 0.5rem 0;
+}
+.benefits .type-benefit{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+.card-benefit p{
+    margin: 20px 0; 
+    line-height: 31px;
+}
 
 
 
@@ -385,7 +427,7 @@ section{
     }
 
     .container-90{
-        width: 80%;
+        width: 44%;
     }
         
     .row{
@@ -414,7 +456,55 @@ section{
         align-self: flex-end;
     }
 
+    .planning .container-90{
+        display: flex;
+    }
+    .planning .img-planning{
+        flex-basis: 30%;
+    }
+    .planning .planning-text{
+        flex-basis: 30%;
+    }
+    .card-tester{
+        display: -webkit-box;
+    }
 
+    .card-tester .text-tester {
+        margin-top: 40px;
+        width: 57%;
+        text-align: justify;
+        margin-left: 57px;
+    }
+    .text-tester p {
+        margin-bottom: 2rem;
+        line-height: 37px;
+        margin-top: 2rem;
+    }
+
+    .card-tester .img-tester {
+        height: 350px;
+        max-width: 596px;
+        text-align: center;
+        width: 343px;
+        height: 301px;
+        display: inline-block;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        margin: 30px auto;
+    }
+
+    .benefits .row{
+        display: flex;
+    }
+    .card-benefit{
+        /* flex-basis: calc(100%/ 3)-2rem; */
+        padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    flex-basis: 32.8%;
+    }
 
 
 
