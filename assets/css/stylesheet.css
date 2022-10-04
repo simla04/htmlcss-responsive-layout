@@ -248,7 +248,7 @@ section{
 .card-tester{
     background-color:rgba(151, 146, 228, 1);
     color: white;
-    padding: 38px 37px 0px 37px;
+    padding: 38px 37px 11px 37px;
     border-radius: 89px;
     border: none;
     margin-top: 20px;
@@ -393,32 +393,67 @@ section{
     }
 
 
+ /* ___free______________________ */
 
+.free{
+    background-color: rgba(151, 146, 228, 1);
+    text-align: center;
+}
+.free .container-90{
+    padding: 2rem 0;
+}
+.started{
+    color: rgba(200, 198, 241, 1);
+    
 
+}
+.simple{
+    color: white;
+    margin: 1rem 0 2rem 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+.free-title{
+    color: rgba(253, 193, 95, 1);
+    font-size: 76px;
+    font-weight: bold;
+    margin: 1rem;
 
+}
+.free-text{
+    color: white;
+}
 
+.free-text .button{
+    width: 200;
+    margin: 1rem auto;
+}
+.free-text button{
+    color: rgba(151, 146, 228, 1);
+    width:30%;
+    padding: 20px 0;
+    border-radius: 49px;
+    margin: 0 auto;
+}
+.free .copyriright{
+    margin: 1rem;
+}
+.copyright a{
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ____footer_________________ */
+footer{
+    background-color: black;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+.link a{
+    color: rgba(151, 146, 228, 1);
+}
 
 
 
@@ -590,6 +625,8 @@ section{
         width: 58%;
         font-weight: bold;
     }
+   
+
 
 
 
