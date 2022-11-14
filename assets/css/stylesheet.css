@@ -10,12 +10,7 @@ font-family: 'PT Sans', sans-serif;
     display: flex;
 }
 
-
-
-
 /* ____DEBUG RULES________- */
-
-
 
 /* .bg-greenyellow{
     background-color:greenyellow ;
@@ -47,9 +42,6 @@ font-family: 'PT Sans', sans-serif;
 .bg-orange{
     background-color: orange;
 }  */
-
-
-
 
 /* ____button_________ */
 
@@ -137,7 +129,6 @@ section{
         margin-top: 28px;
         margin-bottom: 28px;
         text-align: center;
-    
 }
 .demo button{
     margin: 35px 0 40px;
@@ -253,7 +244,6 @@ section{
     border: none;
     margin-top: 20px;
     /* border: dashed blue; */
-
 }
 
 .card-tester .img-tester{
@@ -269,9 +259,6 @@ section{
     margin: auto;
     
 }
-
-
-
 .card-tester .nat{
     background-image: url(../img/testimonial1.jpg);
 }
@@ -281,10 +268,6 @@ section{
 .card-tester .bob{
     background-image: url(../img/testimonial3.jpg);
 }
-
-
-
-
 .card-tester .text-tester{
     margin-top: 40px;
 }
@@ -391,8 +374,6 @@ section{
 .btn-violet i{
     margin-right: 10px;
     }
-
-
  /* ___free______________________ */
 
 .free{
@@ -404,8 +385,6 @@ section{
 }
 .started{
     color: rgba(200, 198, 241, 1);
-    
-
 }
 .simple{
     color: white;
@@ -418,7 +397,6 @@ section{
     font-size: 76px;
     font-weight: bold;
     margin: 1rem;
-
 }
 .free-text{
     color: white;
@@ -454,27 +432,6 @@ footer p{
 .link a{
     color: rgba(151, 146, 228, 1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ___MEDIA___Q___MOBILE FIRST_________ */
 
 @media screen and (min-width: 425px){
@@ -482,16 +439,10 @@ footer p{
         display: none;
     }
 }
-
-
 @media screen and (max-width: 768px){
     .menu-extend{
         display: none;
     }
-    
-    
-    
-    
 }
 
 @media screen and (min-width: 768px){
@@ -506,7 +457,6 @@ footer p{
     }
     .menu-extend ul{
         display: flex;
-
     }
     .menu-extend li{
         list-style: none;
@@ -529,8 +479,7 @@ footer p{
         flex-basis: 30%;
         flex-grow: -3;
         padding: 0px;
-        margin: 15px;
-        
+        margin: 15px;  
     }
     .row .demo{
         flex-basis: 63%;
@@ -586,7 +535,6 @@ footer p{
     .benefits .row{
         display: flex;
         justify-content: space-between;
-    
     }
     .card-benefit{
         /* flex-basis: calc(100%/ 3)-2rem; */
@@ -625,27 +573,4 @@ footer p{
         width: 58%;
         font-weight: bold;
     }
-   
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
 }
